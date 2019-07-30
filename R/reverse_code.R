@@ -7,6 +7,7 @@
 #' new_variable <- reverse_code (var=my_variable)
 #' new_variable
 #' @return a reverse coded vector
+#' 
 #' reverse_code()
 reverse_code <- function(var){
   # error messages

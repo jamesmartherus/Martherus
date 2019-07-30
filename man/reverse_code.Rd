@@ -11,7 +11,8 @@ reverse_code(var)
 }
 \value{
 a reverse coded vector
-standardize()
+
+reverse_code()
 }
 \description{
 Reverse Codes a variable
