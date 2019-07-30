@@ -14,18 +14,16 @@ reverse_code <- function(var){
   if(!is.vector(var)) stop('var must be a vector')
   
   #initialize
-  lo <- min(var, na.rm=T)
-  hi <- max(var, na.rm=T)
   new <- vector()
   
-  if(lo==0){
+  if(min(var, na.rm=T)==0){
     for(i in unique(var)){
-      new[var==i] <- abs(i - hi)
+      new[var==i] <- abs(i - max(var, na.rm=T))
     }
   }
-  else if(lo!=0){
+  else if(min(var, na.rm=T)!=0){
     for(i in unique(var)){
-      new[var==i] <- (hi + 1) - i
+      new[var==i] <- (max(var, na.rm=T) + 1) - i
     }
   }
 return(new)
