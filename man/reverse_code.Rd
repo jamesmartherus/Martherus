@@ -4,14 +4,10 @@
 \alias{reverse_code}
 \title{Reverse Codes a variable}
 \usage{
-reverse_code(var, lo, hi)
+reverse_code(var)
 }
 \arguments{
 \item{var}{a numeric vector to be reverse coded}
-
-\item{lo}{the lowest value of var}
-
-\item{hi}{the highest value of var}
 }
 \value{
 a reverse coded vector
@@ -22,7 +18,7 @@ Reverse Codes a variable
 }
 \examples{
 my_variable <- c(1,2,2,3,3,1)
-new_variable <- reverse_code (var=my_variable,lo=1,hi=3)
+new_variable <- reverse_code (var=my_variable)
 new_variable
 }
 \keyword{cleaning}
