@@ -7,7 +7,7 @@
 #' new_variable <- reverse_code (var=my_variable)
 #' new_variable
 #' @return a reverse coded vector
-#' standardize()
+#' reverse_code()
 reverse_code <- function(var){
   # error messages
   if(!is.numeric(var)) stop(paste0('var is ',class(var),', must be numeric'))
