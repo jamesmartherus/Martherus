@@ -15,3 +15,5 @@ Standardizes x from 0 to 1
 \examples{
 standardize()
 }
+\keyword{cleaning}
+\keyword{data}

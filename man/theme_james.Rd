@@ -25,8 +25,9 @@ library(ggplot2)
 mtcars$cyl <- factor(mtcars$cyl)
 ggplot(mtcars, aes(y=mpg, x=disp, color=cyl)) +
     geom_point() + theme_james()
-
 }
 \seealso{
 [ggplot2::theme()]
 }
+\keyword{ggplot}
+\keyword{theme}

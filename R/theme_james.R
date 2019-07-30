@@ -6,17 +6,14 @@
 #' @param base_size Base font size
 #' @param base_family Base font family
 #' @param ... Passed to [ggplot2::theme()]
-#'
+#' @keywords ggplot theme
 #' @return An object as returned by [ggplot2::theme()]
-#'
 #' @examples
 #' library(ggplot2)
 #' mtcars$cyl <- factor(mtcars$cyl)
 #' ggplot(mtcars, aes(y=mpg, x=disp, color=cyl)) +
 #'     geom_point() + theme_james()
-#'
 #' @seealso [ggplot2::theme()]
-#'
 #' @export
 theme_james <- function(...) {
   theme_bw(base_size=base_size, base_family=base_family) +

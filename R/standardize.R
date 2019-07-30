@@ -2,7 +2,7 @@
 
 #' Standardizes x from 0 to 1
 #' @param x a vector to be standardized
-#' @keywords
+#' @keywords data cleaning
 #' @export
 #' @examples
 #' standardize()

@@ -3,7 +3,7 @@
 #' Rescales a variable to 1
 #' @param var a vector to be rescaled
 #' @param num max number on current scale (for a 7-point scale, num=7). Minimum must be 1
-#' @keywords
+#' @keywords data cleaning
 #' @export
 #' @examples
 #' rescale.to.1()

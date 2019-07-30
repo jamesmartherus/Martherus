@@ -17,3 +17,5 @@ Rescales a variable to 1
 \examples{
 rescale.to.1()
 }
+\keyword{cleaning}
+\keyword{data}
