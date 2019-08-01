@@ -16,10 +16,9 @@
 #' @seealso [ggplot2::theme()]
 #' @export
 theme_james <- function(...) {
-  theme_bw(base_size=base_size, base_family=base_family) +
+  theme_bw() +
     theme(panel.border = element_blank(),
           panel.grid.major = element_blank(),
-          panel.border=ggplot2::element_rect(fill=NA, color="black"),
           panel.grid.minor = element_blank(),
           axis.line = element_line(colour = "black"),
           axis.ticks.length=grid::unit(0, "cm"),
