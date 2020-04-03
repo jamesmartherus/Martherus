@@ -1,4 +1,4 @@
-#'Look at this graph
+#'Plot multi-line axis labels
 #'
 #'\code{addline_format} Multi-line axis labels
 #'
